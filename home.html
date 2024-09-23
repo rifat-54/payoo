@@ -30,11 +30,12 @@
             <div class="flex gap-4">
                 <button id="add-money-click" class="btn">Add Money</button>
                 <button id="cash-out-click" class="btn">Cash Out</button>
+                <button id="tranjection-click" class="btn">Tranjection</button>
             </div>
             <div class="divider"></div>
             <!-- form start  -->
 
-            <div id="add-money-from" class="  card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+            <div id="add-money-from" class="hidden card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
                 <form class="card-body">
                   <div class="form-control">
                     <label class="label">
@@ -59,7 +60,7 @@
 
             <!-- cash out start -->
 
-            <div id="cash-out-from" class=" hidden card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+            <div id="cash-out-from" class="hidden card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
               <form class="card-body">
                 <div class="form-control">
                   <label class="label">
@@ -80,14 +81,26 @@
               </form>
             </div>
             <!-- cash out end -->
+            <!-- tranjection secton start -->
+            <div class="hidden space-y-1" id="tranjection-section">
+              <h2 class="text-3xl">Tranjection History</h2>
+            </div>
+
+            <!-- tranjection section end -->
           </div>
         </div>
       </div>
     </main>
 
     <!-- <script src="js/home.js"></script> -->
-    <script src="addmoney.js"></script>
+    <!-- <script src="addmoney.js"></script>
     <script src="js/cash_out.js"></script>
-    <script src="js/freature.js"></script>
+    <script src="js/freature.js"></script> -->
+
+      <script src="new/utilies.js"></script>
+      <script src="new/add_money.js"></script>
+      <script src="new/cash_out.js"></script>
+      <script src="new/new_freature.js"></script>
+
   </body>
 </html>
